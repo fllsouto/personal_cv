@@ -1,11 +1,11 @@
 build_cv:
-	xelatex cv.tex
+	xelatex main.tex
 
 open_cv:
-	evince cv.pdf &
+	evince main.pdf &
 
 clean_folder:
-	rm -f cv.out cv.log cv.aux
+	rm -f main.out main.log main.aux
 
 clean_pdfs:
-	rm -f cv.pdf
+	rm -f main.pdf
